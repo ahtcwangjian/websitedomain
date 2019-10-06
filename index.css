@@ -2,7 +2,7 @@
 * @Author: wangjian
 * @Date:   2019-10-05 15:36:53
 * @Last Modified by:   wangjian
-* @Last Modified time: 2019-10-05 19:56:50
+* @Last Modified time: 2019-10-06 18:35:52
 */
 .main{
 	display: flex;
@@ -103,6 +103,7 @@
 .right-con-row{
 	margin-top: 26px;
 	font-size: 16px;
+	text-align: center;
 }
 
 
