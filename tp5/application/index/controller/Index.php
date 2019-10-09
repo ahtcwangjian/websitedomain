@@ -24,15 +24,15 @@ class Index extends Controller
 
     	
     	
-    	if($domain == "55g.com"){
+    	if($domain == "www.55g.com"){
     		$price = 150000;
-    	}elseif ($domain == "zhaolan.com") {
+    	}elseif ($domain == "www.zhaolan.com") {
     		$price = 20000;
-    	}elseif ($domain == "piaoke.com") {
+    	}elseif ($domain == "www.piaoke.com") {
     		$price = 30000;
-    	}elseif ($domain == "netbarsoft.com") {
+    	}elseif ($domain == "www.netbarsoft.com") {
     		$price = 40000;
-    	}elseif ($domain == "yangpu.com") {
+    	}elseif ($domain == "www.yangpu.com") {
     		$price = 50000;
     	}
 
