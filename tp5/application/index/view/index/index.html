@@ -1,0 +1,82 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>域名出售</title>
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../../../static/index.css">
+
+
+</head>
+<body>
+	<!-- {if $domain=="wj.55g.com"} -->
+		<div class="main">
+			<div class="main-header">
+				<div>您所访问的域名正在出售</div>
+				<!-- <br> -->
+				<div>This domain is on sale.</div>
+			</div>
+			<div class="main-body">
+				<div class="main-row">
+					<div class="col-sm-8 main-row-left main-row-col">
+						<div class="left-content">
+							<div class="left-top">
+								<div class="left-row-content">
+									<div class="left-content-left">域&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名:</div>
+									<div class="left-content-right">{$domain}</div>
+								</div>
+								<div class="left-row-content">
+									<div class="left-content-left">交易类型:</div>
+									<div class="left-content-right">一口价</div>
+								</div>
+								<div class="left-row-content">
+									<div class="left-content-left">结束时间:</div>
+									<div class="left-content-right">2019-12-31 23:59:59</div>
+								</div>
+								<div class="left-row-content">
+									<div class="left-content-left">售&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价:</div>
+									<div class="left-content-right" style="color: orange;font-size: 22px;">{$price}元</div>
+								</div>
+								<div class="left-row-content">
+									<div class="left-content-left">简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介:</div>
+									<div class="left-content-right">老域名、独立备案</div>
+								</div>
+							</div>
+							<div class="left-bottom">
+								<button style="height: 40px;background: orange;padding: 2px 20px;">立即购买(Buy it!)</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 main-row-right main-row-col">
+						<div class="right-header">联系域名拥有者购买</div>
+						<div class="right-image">
+							<img src="../../../static/touxiang.png" alt="" style="height: 80px;width: 80px;border-radius: 50%;margin-top: 8px;">
+							<div class="right-img-bott">域名经纪：Wangmin</div>
+						</div>
+						<div>
+							<div class="right-con-row">微信:n68610</div>
+							<div class="right-con-row">
+								<img src="../../../static/weixin.jpg" alt="" style="height: 180px;width: 180px;">
+							</div>
+							<!-- <div class="right-con-row">邮箱：ahtcwangjian@qq.com</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-footer">
+				Copyright 2019 {$domain}
+			</div>
+		</div>
+	<!-- {/if} -->
+</body>
+</html>
